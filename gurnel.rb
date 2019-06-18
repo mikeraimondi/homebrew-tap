@@ -2,9 +2,9 @@
 class Gurnel < Formula
   desc "Daily journaling for hackers"
   homepage "https://github.com/mikeraimondi/gurnel"
-  url "https://github.com/mikeraimondi/gurnel/releases/download/v1.0.1/gurnel_1.0.1_Darwin_x86_64.tar.gz"
-  version "1.0.1"
-  sha256 "6a56b20b819cdd8c6357470d6c87f538c31dac8088e14e4f144a00957eafbcab"
+  url "https://github.com/mikeraimondi/gurnel/releases/download/1.1.0/gurnel_1.1.0_Darwin_x86_64.tar.gz"
+  version "1.1.0"
+  sha256 "89bd291ed6bfaf0d6b90770381142ae3c9f4e8a9b59f809e67e134ec0ee961b2"
   
   depends_on "git"
 
