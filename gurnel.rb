@@ -2,16 +2,16 @@
 class Gurnel < Formula
   desc "Daily journaling for hackers"
   homepage "https://github.com/mikeraimondi/gurnel"
-  version "1.1.4"
+  version "1.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mikeraimondi/gurnel/releases/download/v1.1.4/gurnel_1.1.4_Darwin_x86_64.tar.gz"
-    sha256 "cce32525ab50ecd540b9c7dd01190f0bc22cbb80b2870659e7e2743d60b2a872"
+    url "https://github.com/mikeraimondi/gurnel/releases/download/v1.2.0/gurnel_1.2.0_Darwin_x86_64.tar.gz"
+    sha256 "32cdaf1cfa50d700de33e05bf335633bce7ba74f287f32b7dcc3d6ed9803cfbd"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/mikeraimondi/gurnel/releases/download/v1.1.4/gurnel_1.1.4_Linux_x86_64.tar.gz"
-      sha256 "790d94a58c7ea7e0132cd048da4bcd41eb500aaa901bc72b2acc7fb12ea9055e"
+      url "https://github.com/mikeraimondi/gurnel/releases/download/v1.2.0/gurnel_1.2.0_Linux_x86_64.tar.gz"
+      sha256 "1473e0d5671dbc5e030c49a00f1ab960715364ff009add0922aba143d0ccc74d"
     end
   end
   
